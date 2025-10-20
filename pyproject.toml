@@ -1,0 +1,17 @@
+[project]
+name = "easy-kanban"
+version = "0.1.0"
+description = "Self hosted Kanban board with easy sharing"
+authors = [
+    { name = "Arslan Semenov", email = "arslan.semenoff@gmail.com" }
+]
+license = { file = "LICENSE" }
+keywords = ["kanban", "board", "self-hosted", "sharing"]
+readme = "README.md"
+requires-python = ">=3.13.3"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastapi>=0.119.0",
+    "orjson>=3.11.3",
+    "sqlalchemy>=2.0.44",
+]
